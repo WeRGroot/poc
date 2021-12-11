@@ -1,1 +1,1 @@
-web: java $JAVA_OPTS -jar build/libs/webapp-runner.jar --port $PORT target/*.jar
+web: java $JAVA_OPTS -jar target/*.jar --port $PORT
